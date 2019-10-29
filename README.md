@@ -1,4 +1,3 @@
 # ohtu-viikko1
 
-## Tests
-Use `gradle test` or `./gradlew tests` to run tests
+[![CircleCI](https://circleci.com/gh/k0tix/ohtu-viikko1.svg?style=svg)](https://circleci.com/gh/k0tix/ohtu-viikko1)
