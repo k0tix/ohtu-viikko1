@@ -73,7 +73,7 @@ public class VarastoTest {
 
     @Test
     public void lisaysEiHyvaksyNegatiivista() {
-        varasto.lisaaVarastoon(-1);
+        varasto.lisaaVarastoon(4);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
 
