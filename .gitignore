@@ -1,6 +1,6 @@
 *.tmp
-/build
-/.gradle
+build/
+.gradle/
 .classpath
 .project
 .settings/
