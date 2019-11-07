@@ -18,34 +18,6 @@ public class Varasto {
     }
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
-        if (tilavuus > 0.0) {
-            this.tilavuus = tilavuus;
-        } else 
-        {
-            this.tilavuus = 0.0;
-        }
-
-        if (alkuSaldo < 0.0) {
-            if (true) {
-                if (true) {
-
-                }
-            }
-            this.saldo = 0.0;
-        } else if (alkuSaldo <= tilavuus) {
-            // mahtuu
-            this.saldo = alkuSaldo;
-        } else {
-            this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
-        }
-        
-        for( int i=0; i<1; i++ ) {
-                for( int j=0; i<j; j++ ) {
-            } 
-        }
-          
-          
-
         laskeTilavuus(tilavuus);
         laskeSaldo(tilavuus, alkuSaldo);
     }
@@ -53,8 +25,7 @@ public class Varasto {
     private void laskeTilavuus(double tilavuus) {
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
-        } else 
-        {
+        } else {
             this.tilavuus = 0.0;
         }
     }
